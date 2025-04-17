@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+</head>
+<body>
+    <!-- Content will go here -->
+</body>
+</html>
+3. Add the header section:
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <img src="https://via.placeholder.com/150" alt="Website Logo">
+</header>
+4. Add the navigation menu:
+
+<nav>
+    <ul style="list-style-type: none; padding: 0; text-align: center;">
+        <li style="display: inline; margin: 0 10px;"><a href="#home">Home</a></li>
+        <li style="display: inline; margin: 0 10px;"><a href="#about">About</a></li>
+        <li style="display: inline; margin: 0 10px;"><a href="#services">Services</a></li>
+        <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+5. Add the main content sections:
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore...</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation...</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate...</p>
+    </section>
+</main>
+6. Add the footer:
+
+<footer>
+    <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+</footer>
+7. Save the file:
+
+Click "File" > "Save As"
+Name the file index.html
+Set encoding to UTF-8 (if available)
+Save as type "All Files" (not .txt)
+8. View in browser:
+
+Double-click the saved index.html file
+It should open in your default web browser
+Complete Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <img src="https://via.placeholder.com/150" alt="Website Logo">
+    </header>
+
+    <nav>
+        <ul style="list-style-type: none; padding: 0; text-align: center;">
+            <li style="display: inline; margin: 0 10px;"><a href="#home">Home</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#about">About</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#services">Services</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore...</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation...</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
